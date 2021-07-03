@@ -31,10 +31,10 @@ print()
 print('Let\'s start with an example Mad Lib! :) ') # \ is an escape character in python since the ' you use is the same as the string quotes you are using. You must include the escape character to add the quote ' in your printed string
 print("Below, the INPUT variables will ask for your responses & just type them in! ")
 print()
-adjective = input(“Type in an adjective”)
-adjective2 = input(“Type in an adjective”)
-room_in_a_house = input(“Type in a room in a house”)
-print(“It was a “ + adjective + “, cold November day. I woke up to the “ + adjective2 + “ smell of roasting in the “ + room_in_a_house + “ downstairs.”
+adjective = input("Type in an adjective: ")
+adjective2 = input("Type in an adjective: ")
+room_in_a_house = input("Type in a room in a house: ")
+print("It was a " + adjective + ", cold November day. I woke up to the " + adjective2 + " smell of roasting in the " + room_in_a_house + " downstairs.")
 print()
 print("----------------------------------------------------------")
 print()
@@ -45,3 +45,5 @@ print()
 # Feel free to use the example from above for some inspiration!
 print('Let\'s start writing your own Mad Libs below! :) ') 
 ################################################################################
+
+# YOUR CODE HERE
