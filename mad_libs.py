@@ -1,17 +1,13 @@
-# We are going to be making our own Mad Libs game!
+# A code statement with # in the front means it is a Python comment.
+# We are going to be making our own Mad Libs game! 
 
 ## Part 1: Defining Input Variables ############################################
-# First let's define some variables you may want to use below, in Mad Libs
-# we want to work with INPUTS in this game, so we want to declare a variable
-# to an input. We can do this by writing:
+# Let's define some variables you may want to use below, in Mad Libs we want to work with INPUTS in this game, so we want to declare a variable to an input. We can do this by writing:
 my_number = input('Please type in a number: ')
 print('This is the number you typed in ' + str(my_number))
+
 # Try running this to see what happens!
-# What is happening is that we are asking the user of our program to type something
-# and then this value is STORED inside of our variable my_number.
-# The variable my_number is then type casted into a string
-# to concatenate with the rest of the statement
-# Here is an example Mad Lib for you to play with! 
+# What is happening is that we are asking the user of our program to type something and then this value is STORED inside of our variable my_number. The variable my_number is then type casted into a string to concatenate with the rest of the statement Here is an example Mad Lib for you to play with! 
 ################################################################################
 user_name = input("Hey what's your name?: ") # expecting string input
 grade = input("What grade are you in? ") # expecting integer input
@@ -27,11 +23,9 @@ print()
 
 ## Part 2: Walk Through an Example Mad Lib ############################################
 # Alright now, we have some variables, let's write print statements that we want
-# to print out from our Mad Libs. Keep in mind we will be concatenating our
+# to print out from our Mad Libs. Keep in mind we will be concatenating (adding) our
 # variables together, and using the power of casting to make some Python magic!
-#Try making some
-# variables you want to use in your Mad Libs program and make sure to add an input()
-# function that takes in the prompt to ask the user.
+# Try making some variables you want to use in your Mad Libs program and make sure to add an input() function that takes in the prompt to ask the user.
 # Here's an example below:
 ################################################################################
 print('Let\'s start with an example Mad Lib! :) ') # \ is an escape character in python since the ' you use is the same as the string quotes you are using. You must include the escape character to add the quote ' in your printed string
@@ -45,23 +39,10 @@ noun2 = input("Please enter another noun (different from one above): ")
 pnoun1 = input("Please enter a plural noun: ")
 game = input("Please enter a game: ")
 pnoun2 = input("Please enter another plural noun (different from one above): ")
-verb1 = input("Please enter a verb ending with 'ing': ") # notice here that you do not need an escape character for the ' quotes inside the string quotes because they are not the same :)
-verb2 = input("Please enter another verb ending with 'ing': ")
-verb3 = input("Please enter another verb ending with 'ing' (different from one above): ")
-noun3 = input("Please enter another noun (different from ones above): ")
-verb4 = input("Please enter another verb ending with 'ing' (different from ones above): ")
-noun3 = input("Please enter another noun (different from ones above): ")
-plant = input("Please enter a plant: ")
-body = input("Please enter a part of the body: ")
-place = input("Please enter a place: ")
-verb4 = input("Please enter a verb ending with 'ing' (different from one above): ")
-adj3 = input("Please enter another adjective (different from ones above): ")
-number = input ("Please enter a number: ")
-pnoun2 = input("Please enter another plural noun (different from ones above): ")
 print()
 print("Example Mad Libs from your responses: ")
 print()
-print("A vacation is when you take a trip to some " + adj1 + " with your " + adj2 + " family. Usually you go to some place that is near a/an " + noun1 + " or up on a/an " + noun2 +". A good vacation place is one where you can ride " + pnoun1 + " or play " + game + " or go hunting for " + pnoun2 + ". I like to spend my time " + verb1 + " or " + verb2 + ". When parents go on a vacation, they spend their time eating three " + noun3 + " a day, and fathers play golf, and mothers sit around " + verb4 + ". Last summer, my little brother fell in a/an " + noun3 + " and got poison " + plant + " all over his " + body + ". My family is going to go to (the) " + place + ", and I will practice " + verb4 + ". Parents need vacations more than kids because parents are always very " + adj3 + " and because they have to work " + number + " hours every day all year making enough " + pnoun2 + " to pay for the vacation.")
+print("A vacation is when you take a trip to some " + adj1 + " with your " + adj2 + " family. Usually you go to some place that is near a/an " + noun1 + " or up on a/an " + noun2 +". A good vacation place is one where you can ride " + pnoun1 + " or play " + game + " or go hunting for " + pnoun2)
 print()
 print("----------------------------------------------------------")
 print()
